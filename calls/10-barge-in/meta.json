@@ -1,0 +1,15 @@
+{
+  "call_id": "10-barge-in",
+  "scenario_id": "10-barge-in",
+  "title": "Interrupt a refill request and cancel instead",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "clinic hung up",
+  "duration_s": 158.6,
+  "turns": 23,
+  "clinic_turns": 14,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-10-barge-in-5910de16"
+}

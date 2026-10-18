@@ -1,0 +1,15 @@
+{
+  "call_id": "01-schedule-knee",
+  "scenario_id": "01-schedule-knee",
+  "title": "New patient schedules a weekday morning visit",
+  "ok": false,
+  "error": "dial failed: ServerError(code=not_found, message=requested sip trunk does not exist, status=404)",
+  "hangup_reason": "dial failed: ServerError(code=not_found, message=requested sip trunk does not exist, status=404)",
+  "duration_s": 12.6,
+  "turns": 0,
+  "clinic_turns": 0,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+19292339539",
+  "room": "call-01-schedule-knee-c3ce42ba"
+}

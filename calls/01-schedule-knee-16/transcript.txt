@@ -1,0 +1,19 @@
+Call: 01-schedule-knee-16
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-01-schedule-knee-1facb6d5
+Answered: 2026-10-16T11:30:51-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.7] CLINIC: This call may be recorded for quality and training purposes.
+[00:15.6] CLINIC: Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[00:32.3] CLINIC: Welcome to Pivot Point Orthopaedics. Would you like to create a demo patient profile?
+[00:32.6] CLINIC: I just need your first and last name.
+[00:41.8] CLINIC: Are you still there?
+[00:53.2] CLINIC: I'm going to end the call now. Goodbye.
+
+Ended: clinic hung up

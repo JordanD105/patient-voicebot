@@ -1,0 +1,15 @@
+{
+  "call_id": "12-parent-proxy",
+  "scenario_id": "12-parent-proxy",
+  "title": "Parent schedules a teenager and asks about workers' comp",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "patient said goodbye",
+  "duration_s": 162.8,
+  "turns": 21,
+  "clinic_turns": 13,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-12-parent-proxy-d3ed0a0a"
+}

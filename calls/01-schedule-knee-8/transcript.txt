@@ -1,0 +1,16 @@
+Call: 01-schedule-knee-8
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +17712223554
+Room: call-01-schedule-knee-92578c7e
+Answered: 2026-10-16T00:36:20-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+(no speech captured)
+
+Error: SIP 403 Can not make calls to non-verified numbers at this account level D60
+
+Ended: SIP 403 Can not make calls to non-verified numbers at this account level D60

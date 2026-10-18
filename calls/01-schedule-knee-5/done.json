@@ -1,0 +1,15 @@
+{
+  "call_id": "01-schedule-knee-5",
+  "scenario_id": "01-schedule-knee",
+  "title": "New patient schedules a weekday morning visit",
+  "ok": false,
+  "error": "dial failed: ServerError(code=invalid_argument, message=fail to resolve target for \"livekit.telnyx.com\": lookup _sip._udp.livekit.telnyx.com on 172.18.191.254:53: no such host, status=400)",
+  "hangup_reason": "dial failed: ServerError(code=invalid_argument, message=fail to resolve target for \"livekit.telnyx.com\": lookup _sip._udp.livekit.telnyx.com on 172.18.191.254:53: no such host, status=400)",
+  "duration_s": 6.6,
+  "turns": 0,
+  "clinic_turns": 0,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+17712223554",
+  "room": "call-01-schedule-knee-1c979989"
+}

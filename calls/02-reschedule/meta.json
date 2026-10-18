@@ -1,0 +1,15 @@
+{
+  "call_id": "02-reschedule",
+  "scenario_id": "02-reschedule",
+  "title": "Move an existing Thursday afternoon visit",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "clinic hung up",
+  "duration_s": 135.2,
+  "turns": 25,
+  "clinic_turns": 15,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-02-reschedule-78797d26"
+}

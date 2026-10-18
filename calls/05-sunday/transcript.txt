@@ -1,0 +1,16 @@
+Call: 05-sunday
+Scenario: Ask for Sunday at 10 in the morning
+Scenario id: 05-sunday
+Goal: Hear whether Sunday at 10 am is actually available. Accept a weekday if they are closed.
+Patient: Elena Brooks
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-05-sunday-8794cefc
+Answered: 2026-10-18T02:43:13-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:04.2] CLINIC: This call may be recorded for quality and training purposes.
+[00:13.1] CLINIC: Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI.
+[00:14.9] CLINIC: How may I help you today?
+
+Ended: clinic hung up

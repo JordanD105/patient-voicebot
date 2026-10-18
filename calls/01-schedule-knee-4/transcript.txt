@@ -1,0 +1,16 @@
+Call: 01-schedule-knee-4
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +19292339539
+Room: call-01-schedule-knee-e157f47d
+Answered: 2026-10-15T23:28:53-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+(no speech captured)
+
+Error: SIP 403 Forbidden
+
+Ended: clinic hung up

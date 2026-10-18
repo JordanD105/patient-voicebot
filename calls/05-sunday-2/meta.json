@@ -1,0 +1,15 @@
+{
+  "call_id": "05-sunday-2",
+  "scenario_id": "05-sunday",
+  "title": "Ask for Sunday at 10 in the morning",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "max duration",
+  "duration_s": 156.0,
+  "turns": 28,
+  "clinic_turns": 18,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-05-sunday-93ea4ebe"
+}

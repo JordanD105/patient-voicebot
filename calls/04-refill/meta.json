@@ -1,0 +1,15 @@
+{
+  "call_id": "04-refill",
+  "scenario_id": "04-refill",
+  "title": "Refill a non-controlled anti-inflammatory",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "max duration",
+  "duration_s": 154.8,
+  "turns": 23,
+  "clinic_turns": 14,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-04-refill-e3384f9e"
+}

@@ -1,0 +1,28 @@
+Call: 01-schedule-knee-17
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-01-schedule-knee-a24b708f
+Answered: 2026-10-16T11:39:36-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.5] CLINIC: This call may be recorded for quality and training purposes.
+[00:15.6] CLINIC: Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? Just need your first and last name to get started.
+[00:22.8] PATIENT: Hi, I'd like to make a new patient appointment. My name is Maya Chen.
+[00:43.2] CLINIC: Your patient profile is set up, your date of birth is July fourth two thousand
+[00:44.7] CLINIC: for demo purposes. How could I help you today?
+[00:54.5] PATIENT: Thanks. I have been having pain in my right knee since a soccer game about two weeks ago, and I want to see an orthopedic doctor.
+[01:09.1] CLINIC: It sounds like you need an appointment for knee pain after your soccer game. Just to confirm, is this visit for an urgent concern or injury that needs prompt attention?
+[01:14.3] PATIENT: It's not urgent, but I'd like to get it checked soon.
+[01:23.7] CLINIC: Do you have a specific orthopedic doctor you'd like to see, or are you open to the first available provider?
+[01:27.8] PATIENT: I'm open to seeing the first available doctor.
+[01:48.0] CLINIC: There are several openings on Monday, October nineteen, with two orthopedic doctors. Kelly Noble MD and Zigniew Lakoski MD. Do you have a preference between these doctors or should I offer the earliest available slot?
+[01:54.9] PATIENT: Could you offer the earliest available slot, please? Just a heads up, I can't do Monday mornings.
+[02:08.4] CLINIC: The first available slot after Monday morning is at two PM with zed Ignu Lukowski MD Would you like to book that time?
+[02:14.5] PATIENT: Two PM is a bit late for me. Are there any morning slots available after Monday?
+[02:34.8] PATIENT: I have to get going. Thanks for the help, goodbye.
+
+Ended: max duration

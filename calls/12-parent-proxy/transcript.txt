@@ -1,0 +1,34 @@
+Call: 12-parent-proxy
+Scenario: Parent schedules a teenager and asks about workers' comp
+Scenario id: 12-parent-proxy
+Goal: A plan for Ethan's ankle, plus an answer on workers' comp.
+Patient: Diane Okonkwo
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-12-parent-proxy-d3ed0a0a
+Answered: 2026-10-18T02:58:28-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.7] CLINIC: This call may be recorded for quality and training purposes.
+[00:12.5] CLINIC: Thanks for calling Pitapoint Orthopedics. Part of Pretty Good AI. How may I help you today?
+[00:26.2] PATIENT: Hi, I'm calling for my son. He sprained his ankle yesterday, and I want to see if we can get him an appointment. Could you please tell me his name and date of birth?
+[00:32.4] CLINIC: May I have your son's full name and date of birth?
+[00:37.8] PATIENT: His name is Ethan Okonkwo, born March 3, 2010.
+[00:46.8] CLINIC: Could you please spell out your son's first and last name to make sure I have it correct?
+[00:51.6] CLINIC: And just to confirm, his date of birth is March third twenty ten. Is that right?
+[01:09.4] PATIENT: Yes, that's right. Ethan, E-T-H-A-N, Okonkwo, O-K-O-N-K-W-O. And yes, his birthday is March third, 2010.
+[01:24.5] CLINIC: I have your son's name as Ethan Oconquo. Date of birth, March third twenty ten, and your phone number is six four six nine three one
+[01:26.4] CLINIC: zero zero zero six.
+[01:26.6] CLINIC: Is all of that correct?
+[01:34.4] PATIENT: His last name is actually Okonkwo, O-K-O-N-K-W-O. The rest sounds right, yes.
+[01:43.8] CLINIC: Can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[01:46.7] CLINIC: Would you like me to connect you to our patient support team?
+[01:54.5] PATIENT: No, thanks. Can we book a weekday appointment after 4 pm for Ethan instead?
+[02:06.3] CLINIC: I'm unable to book the appointment directly right now because I couldn't find Ethan's record in our system. Our clinic support team will need to help you with this.
+[02:09.4] CLINIC: Would you like me to have them follow-up with you as soon as possible?
+[02:20.5] PATIENT: Yes, please have them follow up with me as soon as they can. Also, do you know if a workers' comp claim from my job can cover Ethan's visit?
+[02:32.3] CLINIC: I'm not able to answer insurance questions directly. But our clinic support team can help with that. Would you like me to connect you to them now?
+[02:40.8] PATIENT: No, that's okay. Just have them include that information when they call me back, please. Thanks a lot. Goodbye.
+[02:42.4] PATIENT: Thank
+
+Ended: patient said goodbye

@@ -1,0 +1,38 @@
+Call: 01-schedule-knee-19
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-01-schedule-knee-f31e5aed
+Answered: 2026-10-18T02:32:03-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:04.1] CLINIC: This call may be recorded for quality and training purposes.
+[00:12.5] CLINIC: Thanks for calling Pivot Point Orthopedics.
+[00:12.7] CLINIC: Part of Pretty Good AI. How may I help you today?
+[00:25.2] PATIENT: Hi, I’m a new patient and I’d like to make an appointment for my right knee. It’s been hurting since a soccer game two weeks ago. What’s the earliest weekday morning you have?
+[00:31.6] CLINIC: I'll check the schedule for you once I have your information.
+[00:34.3] CLINIC: Can you please tell me your full name and date of birth?
+[00:42.5] PATIENT: Sure, my name is Maya Chen, and my date of birth is March 12, 1991.
+[00:57.1] CLINIC: Just to confirm, I have your name as Maya Chen and your date of birth as March twelve nineteen ninety one. Is that correct? If so, could you please spell your first and last name for me?
+[01:04.9] PATIENT: Yes, that is correct. First name is M-A-Y-A, last name is C-H-E-N.
+[01:22.0] CLINIC: Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just confirm your first and last name and date of birth one more time.
+[01:32.0] PATIENT: I’m not sure if you have it, but my callback number is 415-555-0138.
+[01:42.4] CLINIC: I have your number as four one five five five five zero one three eight.
+[01:43.2] CLINIC: Is that correct?
+[01:54.0] PATIENT: Yes, that’s correct.
+[02:09.8] CLINIC: I have your number as four one five five five five
+[02:10.3] CLINIC: Just to confirm, your phone number is four one five
+[02:10.6] CLINIC: five five five
+[02:10.9] CLINIC: zero one three eight.
+[02:11.3] CLINIC: And your date of birth is March twelfth nineteen ninety one.
+[02:11.4] CLINIC: Is that all correct?
+[02:14.8] PATIENT: Yes, that’s all correct.
+[02:24.3] CLINIC: I can't proceed further right now, I can make sure our clinic support team follows up with you.
+[02:27.2] CLINIC: Would you like me to connect you to our patient support team?
+[02:34.0] PATIENT: No, thank you. Could you please tell me the earliest weekday morning appointment you have available?
+[02:37.2] PATIENT: I have to get going. Thanks for the help, goodbye.
+
+Ended: max duration

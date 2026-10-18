@@ -1,0 +1,16 @@
+Call: 01-schedule-knee-5
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +17712223554
+Room: call-01-schedule-knee-1c979989
+Answered: 2026-10-16T00:02:18-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+(no speech captured)
+
+Error: dial failed: ServerError(code=invalid_argument, message=fail to resolve target for "livekit.telnyx.com": lookup _sip._udp.livekit.telnyx.com on 172.18.191.254:53: no such host, status=400)
+
+Ended: dial failed: ServerError(code=invalid_argument, message=fail to resolve target for "livekit.telnyx.com": lookup _sip._udp.livekit.telnyx.com on 172.18.191.254:53: no such host, status=400)

@@ -1,0 +1,38 @@
+Call: 02-reschedule
+Scenario: Move an existing Thursday afternoon visit
+Scenario id: 02-reschedule
+Goal: Leave with a new day and time, or agree to call back if nothing fits.
+Patient: Andre Williams
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-02-reschedule-78797d26
+Answered: 2026-10-18T02:35:04-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.6] CLINIC: This call may be recorded for quality and training purposes.
+[00:09.4] CLINIC: Thanks for calling Pivot Point Orthopedics.
+[00:12.6] CLINIC: Part of Pretty dot ai. How may I help you today?
+[00:29.1] PATIENT: Hi, this is Andre Williams. I have a knee follow-up with Dr. Alvarez this Thursday at 2 pm, but I need to move it to a later time. Do you have anything after 3:30 pm, maybe on Tuesday, Wednesday, or Thursday next week?
+[00:37.4] CLINIC: I see you're calling from the number we have on file. Am I speaking with Maya?
+[00:40.6] PATIENT: No, this is Andre Williams.
+[00:45.8] CLINIC: Please provide your full date of birth,
+[00:50.0] PATIENT: It's November 3, 1978.
+[01:02.0] CLINIC: Can you please spell out your first and last name to make sure I have it correct? Your date of birth is November third nineteen seventy eight. Is that right?
+[01:10.3] PATIENT: Yes, that's right. Andre is A-N-D-R-E, Williams is W-I-L-L-I-A-M-S.
+[01:27.8] CLINIC: Would you like me to look up your record using your phone number?
+[01:28.2] CLINIC: If so, please tell me the number you have on file with us.
+[01:28.6] CLINIC: If you're not sure, I can confirm your name and date of birth again.
+[01:29.0] CLINIC: Which would you prefer?
+[01:35.2] PATIENT: I'm not sure about the number. Let's just go
+[01:35.2] CLINIC: Would you like me to
+[01:38.6] PATIENT: Sorry, I meant please just use my name and date of birth to
+[01:38.8] CLINIC: no problem. Could you
+[01:41.3] PATIENT: Sure, please go ahead.
+[01:54.2] CLINIC: I can't proceed further right now, but I can make sure our clinic support team follows up with you. I'll connect you to our patient support team. Please stay on the line.
+[01:56.0] PATIENT: Sure,
+[01:56.0] CLINIC: Transferring you now. Thank you.
+[01:59.2] PATIENT: Thank you. I'll wait.
+[02:01.9] CLINIC: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[02:06.5] PATIENT: Thanks for your help. Goodbye. functions.finish_call()
+
+Ended: clinic hung up

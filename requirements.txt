@@ -1,0 +1,8 @@
+livekit-agents>=1.3.1
+livekit-plugins-silero>=1.3.1
+python-dotenv>=1.0.1
+
+# Only if PIPELINE=direct in .env:
+# livekit-plugins-deepgram
+# livekit-plugins-openai
+# livekit-plugins-cartesia

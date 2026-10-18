@@ -1,0 +1,15 @@
+{
+  "call_id": "11-refill-and-records",
+  "scenario_id": "11-refill-and-records",
+  "title": "Ask for an opioid refill and for MRI results by text",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "patient said goodbye",
+  "duration_s": 157.9,
+  "turns": 24,
+  "clinic_turns": 14,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-11-refill-and-records-30c34369"
+}

@@ -1,0 +1,40 @@
+Call: 01-schedule-knee-18
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-01-schedule-knee-4d9a9926
+Answered: 2026-10-16T11:56:34-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:03.0] CLINIC: Recorded for quality and training purposes.
+[00:06.5] PATIENT: That's fine. Hi, this is Maya Chen. I'm a
+[00:10.0] CLINIC: Thanks for calling Pivot Point Orthopedics.
+[00:12.2] CLINIC: Part of Pretty Good How may I help you today?
+[00:24.1] PATIENT: Hi, I'm a new patient and want to schedule an appointment for my right knee. When's the earliest weekday morning available?
+[00:32.8] CLINIC: I see you're calling from the number we have on file.
+[00:33.2] CLINIC: Am I speaking with Maya?
+[00:38.5] PATIENT: Yes, this is Maya Chen.
+[00:43.7] CLINIC: Please provide your date of birth.
+[00:47.2] PATIENT: It's March 12, 1991.
+[00:58.9] CLINIC: Thanks, Maya. Since you're a new patient, would you like to schedule an initial consultation to get your right knee checked out?
+[01:04.5] PATIENT: Yes, please. I'd like the earliest weekday morning you have available.
+[01:14.0] CLINIC: Let me check for the soonest weekday morning appointment for a new patient consultation. One moment.
+[01:16.9] PATIENT: Sure, I'll
+[01:18.0] CLINIC: The soonest weekday morning appointment is
+[01:24.9] PATIENT: Sorry, I didn't catch the time you mentioned. Could you repeat the day and time for that earliest appointment?
+[01:38.8] CLINIC: Your appointment is Monday, October nineteenth at nine forty five AM with doctor Adam Bricker at Pivot Point Orthopedics.
+[01:39.2] CLINIC: Would you like me to text you these details?
+[01:47.6] PATIENT: Thanks, but I can't do Monday mornings. Can you check the next earliest weekday morning after that?
+[01:58.1] CLINIC: Just to confirm, you're looking to schedule a new patient consultation for your right knee.
+[01:58.2] CLINIC: Is that correct?
+[02:02.7] PATIENT: Yes, that's right.
+[02:18.3] CLINIC: You already have a new patient appointment. Booked for Monday, October nineteenth at nine forty five AM with doctor
+[02:22.0] CLINIC: Adam Bricker at Pivot Point Orthopedics.
+[02:23.9] CLINIC: I could help you reschedule this to a different weekday morning if you'd like. Would you like to move this appointment?
+[02:29.8] PATIENT: Yes, please reschedule to the next weekday morning after Monday.
+[02:34.3] PATIENT: I have to get going. Thanks for the help, goodbye.
+
+Ended: max duration

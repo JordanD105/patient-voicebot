@@ -1,0 +1,41 @@
+Call: 05-sunday-2
+Scenario: Ask for Sunday at 10 in the morning
+Scenario id: 05-sunday
+Goal: Hear whether Sunday at 10 am is actually available. Accept a weekday if they are closed.
+Patient: Elena Brooks
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-05-sunday-93ea4ebe
+Answered: 2026-10-18T19:49:11-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:04.4] CLINIC: This call may be recorded for quality and training purposes.
+[00:07.6] PATIENT: That's fine. Hi, this is Elena
+[00:12.7] CLINIC: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[00:19.9] PATIENT: Hi, I'd like to book a follow-up appointment for my wrist sprain. Are you open this Sunday? I'd prefer 10 in the morning.
+[00:27.0] CLINIC: Before I can check appointment times, may I have your full name and date of birth?
+[00:32.4] PATIENT: Sure, it's Elena Brooks, and my date of birth is May 17, 1988.
+[00:40.1] CLINIC: Just to confirm, I have your name as Elena Brooks.
+[00:49.6] CLINIC: And your date of birth as May seventeenth nineteen eighty eight. Is that correct? So, could you please spell your first and last name for me?
+[00:58.5] PATIENT: Yes, that's correct. For Elena, it's E-L-E-N-A, and for Brooks, B-R-O-O-K-S.
+[01:03.0] CLINIC: Thank you for spelling that out.
+[01:06.4] CLINIC: Could you please confirm the phone number you have on file with us?
+[01:08.4] CLINIC: If you're not sure, just let me know.
+[01:12.4] PATIENT: I'm not sure, sorry. Could we just try to book the appointment?
+[01:16.5] CLINIC: No problem.
+[01:21.4] CLINIC: To make sure I have your details right, could you please confirm your first and last name,
+[01:25.7] CLINIC: and your date of birth one more time? Just say or spell them out for me.
+[01:31.0] PATIENT: Elena Brooks, and my birthday is May 17, 1988.
+[01:40.8] CLINIC: You please confirm your full name as well? Just say or spell your first and last name for me.
+[01:48.9] PATIENT: Elena Brooks, that's E-L-E-N-A B-R-O-O-K-S.
+[01:57.5] CLINIC: I have your name as Elena Brooks.
+[02:08.2] CLINIC: Your phone number is six four six nine three one zero zero zero six and your date of birth as January nineteenth nineteen eighty. Is that correct?
+[02:14.3] PATIENT: No, my date of birth is May seventeenth, nineteen eighty-eight. The phone number I'm not sure about.
+[02:25.0] CLINIC: I wasn't able to find your record in our system. I'll connect you to our patient support team so they can help you book your appointment.
+[02:26.4] CLINIC: Please stay on the line.
+[02:28.0] CLINIC: Transferring you now.
+[02:29.0] CLINIC: Thank you.
+[02:31.9] PATIENT: Thank you for your
+[02:35.4] PATIENT: I have to get going. Thanks for the help, goodbye.
+
+Ended: max duration

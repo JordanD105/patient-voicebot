@@ -1,0 +1,15 @@
+{
+  "call_id": "01-schedule-knee-17",
+  "scenario_id": "01-schedule-knee",
+  "title": "New patient schedules a weekday morning visit",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "max duration",
+  "duration_s": 159.3,
+  "turns": 15,
+  "clinic_turns": 8,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-01-schedule-knee-a24b708f"
+}

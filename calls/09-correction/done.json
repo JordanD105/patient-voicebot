@@ -1,0 +1,15 @@
+{
+  "call_id": "09-correction",
+  "scenario_id": "09-correction",
+  "title": "Correct a back complaint into a shoulder follow-up",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "patient said goodbye",
+  "duration_s": 132.0,
+  "turns": 28,
+  "clinic_turns": 16,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-09-correction-be2ae5f1"
+}

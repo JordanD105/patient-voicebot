@@ -1,0 +1,41 @@
+Call: 09-correction
+Scenario: Correct a back complaint into a shoulder follow-up
+Scenario id: 09-correction
+Goal: The visit that gets discussed is for the shoulder, not the back.
+Patient: Luis Ortega
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-09-correction-be2ae5f1
+Answered: 2026-10-18T02:49:56-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:04.2] CLINIC: This call may be recorded for quality and training purposes.
+[00:12.7] CLINIC: Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI.
+[00:12.9] CLINIC: How may I help you today?
+[00:21.2] PATIENT: Hi, uh, I need to follow up on the injection I got, I think it was my back, wait, no, my shoulder.
+[00:29.4] CLINIC: I see you're calling from the number we have on file.
+[00:29.5] CLINIC: Am I speaking with Maya?
+[00:33.2] PATIENT: No, this is Luis Ortega.
+[00:40.8] CLINIC: Please provide your full date of birth, Lewis.
+[00:45.5] PATIENT: It's June 30, 1995.
+[00:53.5] CLINIC: Just to confirm, can you please spell your first and last name for me?
+[00:59.5] PATIENT: Sure, L-U-I-S, O-R-T-E-G-A.
+[01:17.6] CLINIC: Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+[01:23.0] PATIENT: You can use my number if you have it. I’m not sure what it is though.
+[01:33.0] CLINIC: No problem. I have your number as six four six nine three one zero zero zero six
+[01:34.9] PATIENT: That sounds
+[01:35.6] CLINIC: Is that correct?
+[01:39.1] PATIENT: Yeah, that sounds
+[01:41.1] CLINIC: Could you please confirm the six four six
+[01:43.9] PATIENT: Sure, it's six, four, six.
+[01:44.7] CLINIC: Just to be sure
+[01:48.0] PATIENT: Yeah, sure. Six, four, six.
+[01:48.3] CLINIC: have your phone number
+[01:51.4] PATIENT: Yeah, you have my phone number.
+[01:59.2] CLINIC: I'm unable to find your record in our system. I'll connect you to our patient support team for further help. Please stay on the line.
+[02:01.1] PATIENT: Sure, I'll
+[02:01.4] CLINIC: Transferring you now. Thank you.
+[02:04.6] PATIENT: Thanks for your help, goodbye.
+[02:07.3] CLINIC: Hello. You've reached the Pretty Good AI test line. Goodbye.
+
+Ended: patient said goodbye

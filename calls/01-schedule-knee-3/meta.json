@@ -1,0 +1,15 @@
+{
+  "call_id": "01-schedule-knee-3",
+  "scenario_id": "01-schedule-knee",
+  "title": "New patient schedules a weekday morning visit",
+  "ok": false,
+  "error": "dial failed: ServerError(code=failed_precondition, message=sip server required auth, but no username or password was provided, status=412)",
+  "hangup_reason": "clinic hung up",
+  "duration_s": 5.7,
+  "turns": 0,
+  "clinic_turns": 0,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+19292339539",
+  "room": "call-01-schedule-knee-f2b9a693"
+}

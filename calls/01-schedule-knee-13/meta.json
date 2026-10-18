@@ -1,0 +1,15 @@
+{
+  "call_id": "01-schedule-knee-13",
+  "scenario_id": "01-schedule-knee",
+  "title": "New patient schedules a weekday morning visit",
+  "ok": false,
+  "error": "SIP 403 Can not make calls to non-verified numbers at this account level D60",
+  "hangup_reason": "clinic hung up",
+  "duration_s": 6.4,
+  "turns": 0,
+  "clinic_turns": 0,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+17712223554",
+  "room": "call-01-schedule-knee-1d057ef4"
+}

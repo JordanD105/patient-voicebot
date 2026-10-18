@@ -1,0 +1,15 @@
+{
+  "call_id": "07-hours-location",
+  "scenario_id": "07-hours-location",
+  "title": "Ask hours, Sunday hours, and which office",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "max duration",
+  "duration_s": 146.4,
+  "turns": 28,
+  "clinic_turns": 16,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-07-hours-location-b6d8f911"
+}

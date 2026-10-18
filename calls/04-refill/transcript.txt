@@ -1,0 +1,36 @@
+Call: 04-refill
+Scenario: Refill a non-controlled anti-inflammatory
+Scenario id: 04-refill
+Goal: Get the refill submitted, or a clear reason it needs a visit.
+Patient: Sam Rivera
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-04-refill-e3384f9e
+Answered: 2026-10-18T02:40:17-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.7] CLINIC: This call may be recorded for quality and training purposes.
+[00:13.7] CLINIC: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[00:18.4] PATIENT: Hi, I need to get a refill on a medication, please.
+[00:26.4] CLINIC: I see you're calling from the number we have on file. Am I speaking with Maya?
+[00:28.9] PATIENT: No, this is Sam Rivera.
+[00:33.9] CLINIC: Please provide your full date of birth.
+[00:38.6] PATIENT: I was born on August 9, 1966.
+[00:50.8] CLINIC: Just to confirm, can you please spell your first and last name for me? Have your date of birth,
+[00:51.0] CLINIC: as August ninth nineteen sixty six.
+[00:58.7] PATIENT: Yeah, my first name is Sam, S-A-M, and my last name is Rivera, R-I-V-E-R-A.
+[01:09.1] CLINIC: Would you like me to look up your record using the phone number you have on with us?
+[01:16.9] CLINIC: If so, please tell me that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer?
+[01:23.6] PATIENT: Yes, please look it up with the phone number you have on file.
+[01:29.4] CLINIC: You please tell me the phone number you have on file with us?
+[01:32.6] PATIENT: I'm not sure what number you have on file.
+[01:36.5] CLINIC: No problem.
+[01:42.6] CLINIC: Let's confirm your information one more time. Please spell your first and last name and confirm your date of birth.
+[01:54.5] PATIENT: Sure, it's S-A-M for Sam, and R-I-V-E-R-A for Rivera. My date of birth is August 9, 1966.
+[02:02.8] CLINIC: I'm unable to find a matching record with the information provided.
+[02:11.6] CLINIC: I can connect you to our patient support team, or you can try providing any other details that might help us locate your record. Would you like to speak with our support team?
+[02:18.4] PATIENT: No, I can give you another detail. Dr. Alvarez prescribed my medication.
+[02:32.6] PATIENT: I have to get going. Thanks for the help, goodbye.
+[02:32.9] CLINIC: Thank you for sharing that. Unfortunately, I still need to verify your record before I can help with your medication refill. You happen to have an old appointment
+
+Ended: max duration

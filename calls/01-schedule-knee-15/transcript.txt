@@ -1,0 +1,15 @@
+Call: 01-schedule-knee-15
+Scenario: New patient schedules a weekday morning visit
+Scenario id: 01-schedule-knee
+Goal: Leave with a specific appointment, or a clear reason they cannot book one.
+Patient: Maya Chen
+Destination: +18054398008
+Caller ID: +19292339539
+Room: call-01-schedule-knee-28ca50d5
+Answered: 2026-10-16T11:13:11-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:05.2] CLINIC: You have insufficient funds to complete this call.
+[00:05.7] CLINIC: Please refill your account balance.
+
+Ended: clinic hung up

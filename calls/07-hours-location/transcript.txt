@@ -1,0 +1,41 @@
+Call: 07-hours-location
+Scenario: Ask hours, Sunday hours, and which office
+Scenario id: 07-hours-location
+Goal: Learn the hours, whether Sunday is open, and where to go.
+Patient: Chris Dalton
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-07-hours-location-b6d8f911
+Answered: 2026-10-18T02:45:52-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.6] CLINIC: This call may be recorded for quality and training purposes.
+[00:12.6] CLINIC: Thanks for calling Pivot Point Orthopedics.
+[00:13.6] CLINIC: Part of Pretty Good AI. How may I help you today?
+[00:18.4] PATIENT: Hi, could you tell me what your office hours are today?
+[00:30.4] CLINIC: Today is Saturday, The clinic is closed on weekends. Regular hours are Monday through Friday.
+[00:30.6] CLINIC: Is there anything else I can help you with?
+[00:36.5] PATIENT: Thanks. Could you tell me if you have any hours on Sunday?
+[00:46.5] CLINIC: The clinic is closed on Sundays. We're open Monday through Friday,
+[00:46.9] CLINIC: Let me know if you need anything else.
+[00:51.7] PATIENT: Okay, which location should I go to for my appointment?
+[01:02.8] CLINIC: I'll need to confirm your information to check your appointment details.
+[01:04.6] PATIENT: I’m not
+[01:04.6] CLINIC: Can you tell me if you're the patient
+[01:06.5] CLINIC: or are you calling for someone else?
+[01:13.0] PATIENT: I’m the patient. My name’s Chris Dalton. I just
+[01:13.0] CLINIC: No problem.
+[01:15.7] PATIENT: Just let me know the
+[01:15.7] CLINIC: You just need the clinic address, here it is. Pivot point
+[01:20.5] PATIENT: Could you please say the street address for Pivot Point?
+[01:22.2] CLINIC: Hey.
+[01:28.6] PATIENT: Sorry, I didn’t catch the address. Could you say the street name for Pivot Point again?
+[01:32.8] CLINIC: I'll need your date of birth to confirm your appointment location.
+[01:38.9] PATIENT: I'm not booking an appointment right now. Could you just tell me if there is parking at the clinic location?
+[01:46.7] CLINIC: I'll need your date of birth before I can To help with your request, I'll need your date of birth. Could you please provide it?
+[01:54.7] PATIENT: I'm not providing my date of birth because I'm just asking about parking, not an appointment. Could you just tell me if there is parking at the clinic?
+[02:08.5] CLINIC: Yes. There is free patient parking available in the surface lot in front of the building at Pivot Point Orthopedics. Let me know if you need the full address or anything else.
+[02:18.7] PATIENT: Thanks. You said there’s free patient parking in the surface lot in front of the building at Pivot Point Orthopedics. That’s helpful. Could you give me the full address for Pivot Point Orthopedics?
+[02:24.1] PATIENT: I have to get going. Thanks for the help, goodbye.
+
+Ended: max duration

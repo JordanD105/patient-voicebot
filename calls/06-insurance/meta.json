@@ -1,0 +1,15 @@
+{
+  "call_id": "06-insurance",
+  "scenario_id": "06-insurance",
+  "title": "Switch insurance and ask what to bring",
+  "ok": false,
+  "error": null,
+  "hangup_reason": "clinic hung up",
+  "duration_s": 54.2,
+  "turns": 8,
+  "clinic_turns": 8,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-06-insurance-8bdf2000"
+}

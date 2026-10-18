@@ -1,0 +1,21 @@
+Call: 06-insurance
+Scenario: Switch insurance and ask what to bring
+Scenario id: 06-insurance
+Goal: Update the insurance on file, or learn exactly what they still need from you.
+Patient: Jordan Hale
+Destination: +18054398008
+Caller ID: +16469310006
+Room: call-06-insurance-8bdf2000
+Answered: 2026-10-18T02:44:38-04:00
+Audio: recording.ogg  left channel = clinic, right channel = patient
+
+[00:06.7] CLINIC: This call may be recorded for quality and training purposes.
+[00:12.6] CLINIC: Thanks for calling Pivot Point Orthopedics.
+[00:15.8] CLINIC: Part of Pretty Good AI.
+[00:25.2] CLINIC: How may I help you today?
+[00:40.6] CLINIC: Hello. Thanks for calling Pivot Point Orthopaedics.
+[00:47.0] CLINIC: Can I help you today?
+[00:47.3] CLINIC: Are you still there?
+[00:54.2] CLINIC: I am going to end the call now.
+
+Ended: clinic hung up

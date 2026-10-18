@@ -1,0 +1,15 @@
+{
+  "call_id": "03-cancel",
+  "scenario_id": "03-cancel",
+  "title": "Cancel tomorrow morning and do not rebook",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "max duration",
+  "duration_s": 135.5,
+  "turns": 27,
+  "clinic_turns": 16,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-03-cancel-076de3f0"
+}

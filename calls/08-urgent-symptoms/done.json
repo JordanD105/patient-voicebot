@@ -1,0 +1,15 @@
+{
+  "call_id": "08-urgent-symptoms",
+  "scenario_id": "08-urgent-symptoms",
+  "title": "Swollen calf and shortness of breath after surgery",
+  "ok": true,
+  "error": null,
+  "hangup_reason": "patient said goodbye",
+  "duration_s": 55.4,
+  "turns": 7,
+  "clinic_turns": 5,
+  "recording": "recording.ogg",
+  "destination": "+18054398008",
+  "caller_number": "+16469310006",
+  "room": "call-08-urgent-symptoms-ff56a2fa"
+}
